@@ -1,13 +1,14 @@
 // Normal variables
-    let username = "Aayush";
+    let myName : string = "Aayush";
     let age : number = 20;
     let isLearning : boolean = true;
+    
 
 // Arrays
     let fruits : string[] = ["Apple","Mango","Orange"];
     fruits.push("guvava");
 
-    let numbers : Number[] = [10,20,30];
+    let numbers : number[] = [10,20,30];
     numbers.push(22);
 
 // Objects
@@ -28,4 +29,11 @@
             age:22
         }
 
+// Functions
+    function greet(name : string){
+        // console.log("Hello, "+name);
+        return "Hello, "+name;
+    }
     
+    let message : string = greet("Aayush");
+    console.log(message);
